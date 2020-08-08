@@ -10,4 +10,8 @@ jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/c
+      - uses: actions/checkout@v3
+      - run: yarn install --frozen-lockfile && yarn build
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+         
