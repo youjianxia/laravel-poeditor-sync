@@ -16,4 +16,5 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_STICKERS_364919 }}'
-       
+          channelId: live
+          projectId: stickers-364919
