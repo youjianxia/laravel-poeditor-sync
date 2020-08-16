@@ -4,4 +4,10 @@
   "private": true,
   "scripts": {
     "serve": "vite preview",
-    "build":
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/font": "5.9.55",
+    "roboto-fontface": "*
