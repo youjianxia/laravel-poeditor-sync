@@ -3,4 +3,7 @@
     <v-layout>
       <v-app-bar color="grey-lighten-2">
         <v-app-bar-nav-icon
-          v
+          variant="text"
+          @click.stop="drawer = !drawer"
+        />
+        <v-toolbar-title>{{ store.appBarTitle }}</v-toolbar
