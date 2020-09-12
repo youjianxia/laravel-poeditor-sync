@@ -6,4 +6,9 @@
           variant="text"
           @click.stop="drawer = !drawer"
         />
-        <v-toolbar-title>{{ store.appBarTitle }}</v-toolbar
+        <v-toolbar-title>{{ store.appBarTitle }}</v-toolbar-title>
+        <v-spacer />
+        <user-dropdown v-if="store.loggedIn" />
+      </v-app-bar>
+      <v-navigation-drawer
+   
