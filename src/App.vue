@@ -17,4 +17,9 @@
       >
         <v-list nav>
           <v-list-item
-            prepend-icon="mdi-car
+            prepend-icon="mdi-cards-outline"
+            to="stickers_list"
+            title="Lista de figurinhas"
+            value="Lista de figurinhas"
+          />
+          <v-list-i
