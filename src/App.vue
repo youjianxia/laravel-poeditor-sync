@@ -11,4 +11,10 @@
         <user-dropdown v-if="store.loggedIn" />
       </v-app-bar>
       <v-navigation-drawer
-   
+        v-model="drawer"
+        color="grey-darken-2"
+        temporary
+      >
+        <v-list nav>
+          <v-list-item
+            prepend-icon="mdi-car
