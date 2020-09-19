@@ -30,4 +30,9 @@
           />
           <v-list-item
             prepend-icon="mdi-swap-horizontal"
-         
+            to="trades"
+            title="Lista de trocas"
+            value="Lista de trocas"
+          />
+        </v-list>
+      </v-nav
