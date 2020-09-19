@@ -26,3 +26,8 @@
             prepend-icon="mdi-pin-outline"
             to="trade_points"
             title="Pontos de troca"
+            value="Pontos de troca"
+          />
+          <v-list-item
+            prepend-icon="mdi-swap-horizontal"
+         
