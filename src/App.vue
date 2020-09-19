@@ -44,4 +44,9 @@
   </v-app>
 </template>
 
-<script lan
+<script lang="ts">
+import { defineComponent } from 'vue'
+import { store } from "./store.js"
+import UserDropdown from './components/UserDropdown.vue'
+
+export default defi
