@@ -35,4 +35,13 @@
             value="Lista de trocas"
           />
         </v-list>
-      </v-nav
+      </v-navigation-drawer>
+     
+      <v-main>
+        <router-view />
+      </v-main>
+    </v-layout>
+  </v-app>
+</template>
+
+<script lan
