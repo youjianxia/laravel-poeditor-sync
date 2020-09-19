@@ -22,4 +22,7 @@
             title="Lista de figurinhas"
             value="Lista de figurinhas"
           />
-          <v-list-i
+          <v-list-item
+            prepend-icon="mdi-pin-outline"
+            to="trade_points"
+            title="Pontos de troca"
