@@ -49,4 +49,10 @@ import { defineComponent } from 'vue'
 import { store } from "./store.js"
 import UserDropdown from './components/UserDropdown.vue'
 
-export default defi
+export default defineComponent({
+    name: "App",
+    components: { UserDropdown },
+    data() {
+        return {
+            drawer: false,
+      
