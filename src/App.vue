@@ -55,4 +55,12 @@ export default defineComponent({
     data() {
         return {
             drawer: false,
-      
+            store            
+        };
+    },
+    watch: {
+        group() {
+            this.drawer = false;
+        },
+    },
+  
