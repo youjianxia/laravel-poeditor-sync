@@ -63,4 +63,10 @@ export default defineComponent({
             this.drawer = false;
         },
     },
-  
+    methods: {
+        logClick(item: PointerEvent) {
+            console.log(item);
+        }
+    }
+})
+</script>
