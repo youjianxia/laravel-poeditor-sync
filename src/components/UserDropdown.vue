@@ -14,3 +14,9 @@
       </template>
       <v-list
         nav
+      >
+        <v-list nav>
+          <v-list-item
+            prepend-icon="mdi-account-switch"
+            to="login"
+            title="Troc
