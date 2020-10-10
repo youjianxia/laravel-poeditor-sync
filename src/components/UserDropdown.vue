@@ -19,4 +19,10 @@
           <v-list-item
             prepend-icon="mdi-account-switch"
             to="login"
-            title="Troc
+            title="Trocar usuário"
+            value="switch_user"
+          />
+          <v-list-item
+            prepend-icon="mdi-logout"
+            to="login"
+     
