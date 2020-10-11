@@ -42,4 +42,16 @@ import { store } from "../store.js"
 export default defineComponent({
     name: 'App',
 
+    data() {
+        return {
+            store
+        }
+    },
+    methods: {
+        logout(){
+            store.logout();
+        }
+    }
+})
+</script>
   
