@@ -33,4 +33,13 @@
       </v-list>
     </v-menu>
   </div>
-</te
+</template>
+  
+<script lang="ts">
+import { defineComponent } from 'vue'
+import { store } from "../store.js"
+
+export default defineComponent({
+    name: 'App',
+
+  
