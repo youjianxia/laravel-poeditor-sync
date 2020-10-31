@@ -10,4 +10,8 @@ const routes = [
     { path: "/", name: "Home", component: UserList },
     { path: "/stickers_list", name: "Lista de figurinhas", component: StickerList },
     { path: "/trade_points", name: "Pontos de troca", component: TradePoint },
-    { path: "/login", name: "Lista de usuár
+    { path: "/login", name: "Lista de usuários", component: UserList },
+    { path: "/trades", name: "Lista de trocas", component: TradeList },
+]
+
+const router = createRouter(
