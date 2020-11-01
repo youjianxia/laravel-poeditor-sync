@@ -14,4 +14,11 @@ const routes = [
     { path: "/trades", name: "Lista de trocas", component: TradeList },
 ]
 
-const router = createRouter(
+const router = createRouter({
+    history: createWebHashHistory(),
+    routes
+})
+
+router.beforeEach((to, from, next) => {
+    store.changeAppBarTitle(to.name as string)
+ 
