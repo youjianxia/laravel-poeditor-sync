@@ -21,4 +21,7 @@ const router = createRouter({
 
 router.beforeEach((to, from, next) => {
     store.changeAppBarTitle(to.name as string)
- 
+    next();
+  });
+
+export default router;
