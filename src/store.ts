@@ -20,4 +20,6 @@ export const store = reactive({
     },
     logout() {
         this.user = {id: undefined, name: '', email: ''};
- 
+        this.loggedIn = false;
+    }
+})
