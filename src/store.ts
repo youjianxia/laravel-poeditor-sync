@@ -14,4 +14,10 @@ export const store = reactive({
     changeAppBarTitle(newTitle: string) {
         this.appBarTitle = newTitle;
     },
-    changeUser(newUser: User
+    changeUser(newUser: User) {
+        this.user = newUser;
+        this.loggedIn = true;
+    },
+    logout() {
+        this.user = {id: undefined, name: '', email: ''};
+ 
