@@ -6,4 +6,11 @@
         label="Busca por nome do jogador"
       />
     </v-col>
-    <v-col 
+    <v-col cols="2">
+      <v-combobox
+        v-model="selectedCountry"
+        clearable
+        :items="listOfCountries"
+        label="País"
+      />
+  
