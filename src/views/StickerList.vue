@@ -18,4 +18,15 @@
       <v-checkbox
         v-model="showOwned"
         label="Mostrar apenas figurinhas não obtidas"
-      /
+      />
+    </v-col>
+  </v-row>
+
+  <v-table>
+    <thead>
+      <tr>
+        <th
+          class="text-left"
+          width="150"
+        >
+         
