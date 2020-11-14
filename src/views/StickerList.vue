@@ -13,4 +13,9 @@
         :items="listOfCountries"
         label="País"
       />
-  
+    </v-col>
+    <v-col cols="3">
+      <v-checkbox
+        v-model="showOwned"
+        label="Mostrar apenas figurinhas não obtidas"
+      /
