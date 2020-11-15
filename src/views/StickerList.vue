@@ -29,4 +29,12 @@
           class="text-left"
           width="150"
         >
-         
+          Figurinha
+        </th>
+        <th class="text-left">
+          Name
+        </th>
+        <th class="text-left">
+          Number
+        </th>
+   
