@@ -37,4 +37,10 @@
         <th class="text-left">
           Number
         </th>
-   
+        <th class="text-left">
+          País
+        </th>
+        <th class="text-left" />
+        <th class="text-left" />
+      </tr>
+    
