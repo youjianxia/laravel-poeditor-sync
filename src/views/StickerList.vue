@@ -43,4 +43,10 @@
         <th class="text-left" />
         <th class="text-left" />
       </tr>
-    
+    </thead>
+    <tbody>
+      <tr
+        v-for="item in listOfStickers"
+        :key="item.id"
+      >
+        
