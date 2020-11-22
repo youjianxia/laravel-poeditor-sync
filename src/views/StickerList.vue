@@ -54,4 +54,10 @@
             width="140"
             height="200"
             :src="item.imageUrl"
-         
+          />
+        </td>
+        <td>{{ item.name }}</td>
+        <td>{{ item.number }}</td>
+        <td>{{ item.country }}</td>
+        <td>
+  
