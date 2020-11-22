@@ -64,4 +64,10 @@
             v-model="item.wishlisted"
             :disabled="item.owned"
             label="Quero"
-            @
+            @change="wishlistChange(item)"
+          />
+        </td>
+        <td>
+          <v-checkbox
+            v-model="item.owned"
+            label="
