@@ -49,4 +49,9 @@
         v-for="item in listOfStickers"
         :key="item.id"
       >
-        
+        <td class="align-center ">
+          <v-img
+            width="140"
+            height="200"
+            :src="item.imageUrl"
+         
