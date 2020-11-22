@@ -60,4 +60,8 @@
         <td>{{ item.number }}</td>
         <td>{{ item.country }}</td>
         <td>
-  
+          <v-checkbox
+            v-model="item.wishlisted"
+            :disabled="item.owned"
+            label="Quero"
+            @
