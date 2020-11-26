@@ -70,4 +70,14 @@
         <td>
           <v-checkbox
             v-model="item.owned"
-            label="
+            label="Tenho para trocar"
+            @change="ownedChange(item)"
+          />
+        </td>
+      </tr>
+    </tbody>
+  </v-table>
+</template>
+
+<script lang="ts">
+impo
