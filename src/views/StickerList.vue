@@ -80,4 +80,10 @@
 </template>
 
 <script lang="ts">
-impo
+import { store } from "../store.js"
+interface Sticker {
+  id: number;
+  name: string;
+  number: number;
+  imageUrl: string;
+  coun
