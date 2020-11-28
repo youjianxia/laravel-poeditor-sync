@@ -86,4 +86,13 @@ interface Sticker {
   name: string;
   number: number;
   imageUrl: string;
-  coun
+  country: string;
+  wishlisted: boolean;
+  owned: boolean;
+}
+export default {
+  data() {
+    return {
+      showOwned: false,
+      searchTerm: "",
+      selectedCount
