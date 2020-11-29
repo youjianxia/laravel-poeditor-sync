@@ -95,4 +95,10 @@ export default {
     return {
       showOwned: false,
       searchTerm: "",
-      selectedCount
+      selectedCountry: "",
+      stickers: new Array() as Array<Sticker>,
+    }
+  },
+  computed: {
+    listOfStickers(): Array<Sticker> {
+      const filterOwned = (list: Ar
