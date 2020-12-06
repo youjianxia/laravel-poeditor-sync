@@ -105,4 +105,7 @@ export default {
         return this.showOwned ? list.filter(sticker => sticker.owned != this.showOwned) : list
       }
       const filterName = (list: Array<Sticker>) => {
-        return this.searchTerm ? list.filter(sticker => sticker.nam
+        return this.searchTerm ? list.filter(sticker => sticker.name.toLocaleLowerCase().includes(this.searchTerm.toLocaleLowerCase())) : list;
+      }
+      const filterCountry = (list: Array<Sticker>) => {
+        retu
