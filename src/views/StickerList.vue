@@ -108,4 +108,9 @@ export default {
         return this.searchTerm ? list.filter(sticker => sticker.name.toLocaleLowerCase().includes(this.searchTerm.toLocaleLowerCase())) : list;
       }
       const filterCountry = (list: Array<Sticker>) => {
-        return this.selectedCountry ? list.filter(sticker => sticker.country.toLocaleLowerCase().includes(this.selectedCountry.toLocaleLowerCase
+        return this.selectedCountry ? list.filter(sticker => sticker.country.toLocaleLowerCase().includes(this.selectedCountry.toLocaleLowerCase())) : list;
+      }
+      return filterCountry(filterName(filterOwned(this.stickers)));
+    },
+    listOfCountries(): Array<string> {
+      return [...n
