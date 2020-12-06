@@ -113,4 +113,8 @@ export default {
       return filterCountry(filterName(filterOwned(this.stickers)));
     },
     listOfCountries(): Array<string> {
-      return [...n
+      return [...new Set(this.stickers.map(sticker => sticker.country))];
+    }
+  },
+  async mounted() {
+    fetch("https://stickers-trade-be-vqklpjxjja-
