@@ -117,4 +117,8 @@ export default {
     }
   },
   async mounted() {
-    fetch("https://stickers-trade-be-vqklpjxjja-
+    fetch("https://stickers-trade-be-vqklpjxjja-rj.a.run.app/sticker")
+      .then(response => response.json())
+      .then(data => this.stickers = data);
+
+    let stickerResponse = await
