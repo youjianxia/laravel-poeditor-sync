@@ -121,4 +121,8 @@ export default {
       .then(response => response.json())
       .then(data => this.stickers = data);
 
-    let stickerResponse = await
+    let stickerResponse = await fetch("https://stickers-trade-be-vqklpjxjja-rj.a.run.app/sticker");
+    this.stickers = await stickerResponse.json()
+
+
+    let useResponse = await fetc
