@@ -125,4 +125,6 @@ export default {
     this.stickers = await stickerResponse.json()
 
 
-    let useResponse = await fetc
+    let useResponse = await fetch(`https://stickers-trade-be-vqklpjxjja-rj.a.run.app/user/${store.user.id}`);
+    let useResponseJson = await useResponse.json();
+    this.stickers.forEach(
