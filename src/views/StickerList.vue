@@ -127,4 +127,6 @@ export default {
 
     let useResponse = await fetch(`https://stickers-trade-be-vqklpjxjja-rj.a.run.app/user/${store.user.id}`);
     let useResponseJson = await useResponse.json();
-    this.stickers.forEach(
+    this.stickers.forEach((sticker: Sticker) => {
+      let wishlist: Array<Sticker> = 
+        useResponseJson.userStickerWishList.filter((element: { id: number; 
