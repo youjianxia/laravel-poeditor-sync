@@ -131,4 +131,7 @@ export default {
       let wishlist: Array<Sticker> = 
         useResponseJson.userStickerWishList.filter((element: { id: number; }) => element.id == sticker.id);
       let owned: Array<Sticker> = 
-        useResponseJson.userStickerOwnedList.f
+        useResponseJson.userStickerOwnedList.filter((element: { id: number; }) => element.id == sticker.id);
+      if (wishlist.length > 0) {
+        sticker.wishlisted = true;
+ 
