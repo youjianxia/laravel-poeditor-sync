@@ -145,4 +145,10 @@ export default {
   methods: {
     wishlistChange(item: Sticker) {
       fetch(`https://stickers-trade-be-vqklpjxjja-rj.a.run.app/user/${store.user.id}/sticker_wishlist/${item.id}`, {
-        method: item.wishlisted ? 'POST' : 'DELET
+        method: item.wishlisted ? 'POST' : 'DELETE'
+      })
+        .then(response => console.log(response));
+
+    },
+    ownedChange(item: Sticker) {
+      fetch(`https://stickers-trade-be-vq
