@@ -134,4 +134,14 @@ export default {
         useResponseJson.userStickerOwnedList.filter((element: { id: number; }) => element.id == sticker.id);
       if (wishlist.length > 0) {
         sticker.wishlisted = true;
- 
+      }
+
+      if (owned.length > 0) {
+        sticker.owned = true;
+      }
+    });
+
+  },
+  methods: {
+    wishlistChange(item: Sticker) {
+      fetch(
