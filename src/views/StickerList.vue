@@ -144,4 +144,5 @@ export default {
   },
   methods: {
     wishlistChange(item: Sticker) {
-      fetch(
+      fetch(`https://stickers-trade-be-vqklpjxjja-rj.a.run.app/user/${store.user.id}/sticker_wishlist/${item.id}`, {
+        method: item.wishlisted ? 'POST' : 'DELET
