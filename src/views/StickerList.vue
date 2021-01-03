@@ -151,4 +151,6 @@ export default {
 
     },
     ownedChange(item: Sticker) {
-      fetch(`https://stickers-trade-be-vq
+      fetch(`https://stickers-trade-be-vqklpjxjja-rj.a.run.app/user/${store.user.id}/owned_sticker/${item.id}`, {
+        method: item.owned ? 'POST' : 'DELETE'
+      })
