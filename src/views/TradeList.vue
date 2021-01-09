@@ -2,4 +2,9 @@
   <v-row>
     <v-col>
       <v-combobox
-        v-mode
+        v-model="selectedTradePoint"
+        clearable
+        :items="tradePoints"
+        item-title="name"
+        item-value="id"
+        label="P
