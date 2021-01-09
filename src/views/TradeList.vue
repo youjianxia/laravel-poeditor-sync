@@ -7,4 +7,13 @@
         :items="tradePoints"
         item-title="name"
         item-value="id"
-        label="P
+        label="Ponto de troca"
+        @update:modelValue="clickedTradePoint"
+      />
+    </v-col>
+  </v-row>
+
+  <v-table>
+    <thead>
+      <tr>
+     
