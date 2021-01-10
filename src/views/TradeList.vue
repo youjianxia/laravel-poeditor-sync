@@ -23,4 +23,12 @@
           Nome
         </th>
         <th class="text-left">
-        
+          Figurinhas que possui
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        v-for="item in trades"
+        :key="item.ownerId"
+      >
