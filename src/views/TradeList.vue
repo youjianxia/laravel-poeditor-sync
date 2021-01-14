@@ -32,3 +32,5 @@
         v-for="item in trades"
         :key="item.ownerId"
       >
+        <td>{{ item.ownerName }}</td>
+        <td><pre>{{ item.trades ? item.trades.map(trade => trade.stickerName + " - " + trade.stickerNumber).join("\n
