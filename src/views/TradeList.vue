@@ -33,4 +33,13 @@
         :key="item.ownerId"
       >
         <td>{{ item.ownerName }}</td>
-        <td><pre>{{ item.trades ? item.trades.map(trade => trade.stickerName + " - " + trade.stickerNumber).join("\n
+        <td><pre>{{ item.trades ? item.trades.map(trade => trade.stickerName + " - " + trade.stickerNumber).join("\n") : "" }}</pre></td>
+      </tr>
+    </tbody>
+  </v-table>
+</template>
+
+<script lang="ts">
+import { store } from "../store.js"
+
+interface Trade
