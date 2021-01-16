@@ -57,4 +57,12 @@ interface UserTrades {
 }
 interface TradePoint {
   id: number;
-  name: string
+  name: string;
+  address: string;
+}
+
+export default {
+  data() {
+    return {
+      selectedTradePoint: "",
+      tradePoints: new Array() as 
