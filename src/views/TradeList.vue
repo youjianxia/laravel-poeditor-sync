@@ -50,4 +50,11 @@ interface Trade {
   ownerId: string;
   ownerName: string;
 }
-inter
+interface UserTrades {
+  ownerId: string;
+  ownerName: string;
+  trades: Array<Trade>
+}
+interface TradePoint {
+  id: number;
+  name: string
