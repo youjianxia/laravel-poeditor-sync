@@ -42,4 +42,12 @@
 <script lang="ts">
 import { store } from "../store.js"
 
-interface Trade
+interface Trade {
+  stickerId: number;
+  stickerName: string;
+  stickerNumber: number;
+  stickerUrl: string;
+  ownerId: string;
+  ownerName: string;
+}
+inter
