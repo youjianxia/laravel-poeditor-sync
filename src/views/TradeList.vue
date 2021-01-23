@@ -65,4 +65,9 @@ export default {
   data() {
     return {
       selectedTradePoint: "",
-      tradePoints: new Array() as 
+      tradePoints: new Array() as Array<TradePoint>,
+      trades: new Array() as Array<UserTrades>
+    }
+  },
+  async mounted() {
+    let useResponse = await fetch(`h
