@@ -77,4 +77,8 @@ export default {
   methods: {
     clickedTradePoint(event: any) {
       this.trades = []
-      let selected = this.tradePoint
+      let selected = this.tradePoints.find(tradePoint => tradePoint.name == event);
+      
+      if (selected) {
+        console.log(selected.id);
+        fetch(`https:
