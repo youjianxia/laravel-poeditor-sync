@@ -81,4 +81,6 @@ export default {
       
       if (selected) {
         console.log(selected.id);
-        fetch(`https:
+        fetch(`https://stickers-trade-be-vqklpjxjja-rj.a.run.app/user/${store.user.id}/trades/${selected.id}`)
+        .then(response => response.json())
+     
