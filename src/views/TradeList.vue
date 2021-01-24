@@ -72,4 +72,9 @@ export default {
   async mounted() {
     let useResponse = await fetch(`https://stickers-trade-be-vqklpjxjja-rj.a.run.app/user/${store.user.id}`);
     let useResponseJson = await useResponse.json();
-    this
+    this.tradePoints = useResponseJson.userTradePointList;
+  },
+  methods: {
+    clickedTradePoint(event: any) {
+      this.trades = []
+      let selected = this.tradePoint
