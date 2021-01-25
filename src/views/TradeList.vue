@@ -83,4 +83,16 @@ export default {
         console.log(selected.id);
         fetch(`https://stickers-trade-be-vqklpjxjja-rj.a.run.app/user/${store.user.id}/trades/${selected.id}`)
         .then(response => response.json())
-     
+        .then(data => {
+          console.log(data)
+          this.trades = data
+        } );
+      }
+    }
+  }
+}
+</script>
+
+<style>
+
+</style>
