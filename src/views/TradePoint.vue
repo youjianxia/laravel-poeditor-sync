@@ -9,4 +9,14 @@
     <v-col cols="3">
       <v-checkbox
         v-model="showLinkedOnly"
-        label="Mostrar apenas pontos frequentad
+        label="Mostrar apenas pontos frequentados"
+      />
+    </v-col>
+  </v-row>
+
+  <v-table>
+    <thead>
+      <tr>
+        <th class="text-left">
+          Name
+        </
