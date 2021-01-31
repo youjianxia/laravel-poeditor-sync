@@ -33,4 +33,8 @@
       >
         <td>{{ item.name }}</td>
         <td>{{ item.address }}</td>
-  
+        <td>
+          <v-checkbox
+            v-model="item.linked"
+            label="Ponto frequentado"
+            @change="linkedC
