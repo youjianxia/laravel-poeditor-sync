@@ -19,4 +19,12 @@
       <tr>
         <th class="text-left">
           Name
-        </
+        </th>
+        <th class="text-left">
+          Endereço
+        </th>
+        <th class="text-left" />
+      </tr>
+    </thead>
+    <tbody>
+    
