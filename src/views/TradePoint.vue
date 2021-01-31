@@ -37,4 +37,14 @@
           <v-checkbox
             v-model="item.linked"
             label="Ponto frequentado"
-            @change="linkedC
+            @change="linkedChange(item)"
+          />
+        </td>
+      </tr>
+    </tbody>
+  </v-table>
+</template>
+
+
+<script lang="ts">
+import { store }
