@@ -47,4 +47,13 @@
 
 
 <script lang="ts">
-import { store }
+import { store } from "../store.js"
+
+interface TradePoint {
+  id: number;
+  name: string;
+  address: string;
+  linked: boolean;
+}
+export default {
+  
