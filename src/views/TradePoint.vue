@@ -56,4 +56,8 @@ interface TradePoint {
   linked: boolean;
 }
 export default {
-  
+  data() {
+    return {
+      showLinkedOnly: false,
+      searchTerm: "",
+      tradePoints: new Array() as Array<TradePoint>,
