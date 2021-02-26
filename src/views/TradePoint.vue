@@ -61,3 +61,9 @@ export default {
       showLinkedOnly: false,
       searchTerm: "",
       tradePoints: new Array() as Array<TradePoint>,
+    }
+  },
+  computed: {
+    listOfTradePoints(): Array<TradePoint> {
+      this.tradePoints
+      const filterLinked = (list: Array<TradePoint>) => {
