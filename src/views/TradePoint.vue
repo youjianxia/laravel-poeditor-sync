@@ -67,3 +67,6 @@ export default {
     listOfTradePoints(): Array<TradePoint> {
       this.tradePoints
       const filterLinked = (list: Array<TradePoint>) => {
+        return this.showLinkedOnly ? list.filter(sticker => sticker.linked == true) : list
+      }
+      const filterName = (list: Array
