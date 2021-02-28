@@ -69,4 +69,5 @@ export default {
       const filterLinked = (list: Array<TradePoint>) => {
         return this.showLinkedOnly ? list.filter(sticker => sticker.linked == true) : list
       }
-      const filterName = (list: Array
+      const filterName = (list: Array<TradePoint>) => {
+        return this.searchTerm ? list.filter(sticker => sticker.name.toLocaleLowerCase().includes(this.searchTerm.toLocaleLowerCase())) 
