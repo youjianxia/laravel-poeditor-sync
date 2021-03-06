@@ -76,4 +76,8 @@ export default {
     }
   },
   async mounted() {
-    let trade_points_response = await fetch("https://stickers-
+    let trade_points_response = await fetch("https://stickers-trade-be-vqklpjxjja-rj.a.run.app/trade_point");
+    this.tradePoints = await trade_points_response.json()
+
+
+    let user_response = await fe
