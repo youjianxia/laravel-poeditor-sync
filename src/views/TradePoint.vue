@@ -80,4 +80,6 @@ export default {
     this.tradePoints = await trade_points_response.json()
 
 
-    let user_response = await fe
+    let user_response = await fetch(`https://stickers-trade-be-vqklpjxjja-rj.a.run.app/user/${store.user.id}`);
+    let user_response_json = await user_response.json();
+    this.tradePoin
