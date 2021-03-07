@@ -82,4 +82,5 @@ export default {
 
     let user_response = await fetch(`https://stickers-trade-be-vqklpjxjja-rj.a.run.app/user/${store.user.id}`);
     let user_response_json = await user_response.json();
-    this.tradePoin
+    this.tradePoints.forEach((tradepoint: TradePoint) => {
+      let userTradePoint: Array<TradePoint> = user_response_json.userTradePointList.filter((element: { id: number; })
