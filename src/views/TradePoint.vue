@@ -94,4 +94,16 @@ export default {
   methods: {
     linkedChange(item: TradePoint) {
       fetch(`https://stickers-trade-be-vqklpjxjja-rj.a.run.app/user/${store.user.id}/trade_point/${item.id}`, {
-    
+        method: item.linked ? 'POST' : 'DELETE'
+      })
+        .then(response => console.log(response));
+
+    }
+  }
+
+}
+</script>
+
+<style>
+
+<
