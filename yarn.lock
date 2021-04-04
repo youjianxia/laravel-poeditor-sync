@@ -10,4 +10,8 @@
 "@esbuild/android-arm@0.15.11":
   version "0.15.11"
   resolved "https://registry.yarnpkg.com/@esbuild/android-arm/-/android-arm-0.15.11.tgz#bdd9c3e098183bdca97075aa4c3e0152ed3e10ee"
-  integrity sha512-PzMcQLazLBkwDEkrNPi9AbjFt6+3I7HKbiYF2XtWQ7wItrHvEO
+  integrity sha512-PzMcQLazLBkwDEkrNPi9AbjFt6+3I7HKbiYF2XtWQ7wItrHvEOeO3T8Am434zAozWtVP7lrTue1bEfc2nYWeCA==
+
+"@esbuild/linux-loong64@0.15.11":
+  version "0.15.11"
+  resolved "https://registry.yarnpkg.com/@esbuild/li
