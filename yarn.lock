@@ -79,4 +79,5 @@
 
 "@rushstack/eslint-patch@^1.2.0":
   version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch
+  resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.2.0.tgz#8be36a1f66f3265389e90b5f9c9962146758f728"
+  integrity sha512-sXo/qW2/pAcmT43VoRKOJbDOfV3cYpq3szSVfITh
