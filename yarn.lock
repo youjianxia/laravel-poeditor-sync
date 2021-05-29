@@ -108,4 +108,5 @@
 
 "@typescript-eslint/parser@^5.0.0":
   version "5.40.0"
-  re
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-5.40.0.tgz#432bddc1fe9154945660f67c1ba6d44de5014840"
+  integrity sha51
