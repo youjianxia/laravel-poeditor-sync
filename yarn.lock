@@ -118,4 +118,5 @@
 
 "@typescript-eslint/scope-manager@5.40.0":
   version "5.40.0"
-  resolved "https://registry.yarnpkg.com/@typescrip
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/scope-manager/-/scope-manager-5.40.0.tgz#d6ea782c8e3a2371ba3ea31458dcbdc934668fc4"
+  integrity sha512-d3nPmjUeZtEWRvyReMI4I1MwPGC63E8pDoHy0Bn
