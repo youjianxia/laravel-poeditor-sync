@@ -122,4 +122,8 @@
   integrity sha512-d3nPmjUeZtEWRvyReMI4I1MwPGC63E8pDoHy0BnrYjnJgilBD3hv7XOiETKLY/zTwI7kCnBDf2vWTRUVpYw0Uw==
   dependencies:
     "@typescript-eslint/types" "5.40.0"
-    "@typescript-
+    "@typescript-eslint/visitor-keys" "5.40.0"
+
+"@typescript-eslint/type-utils@5.40.0":
+  version "5.40.0"
+  resolved "https://registry.yarnpkg.com/@typescrip
