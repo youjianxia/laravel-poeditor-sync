@@ -136,4 +136,5 @@
 
 "@typescript-eslint/types@5.40.0":
   version "5.40.0"
-  resolved "https://r
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-5.40.0.tgz#8de07e118a10b8f63c99e174a3860f75608c822e"
+  integrity sha512-V1KdQRTXsYpf1Y1fXCeZ+uhjW48N
