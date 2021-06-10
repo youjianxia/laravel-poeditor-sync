@@ -130,4 +130,10 @@
   integrity sha512-nfuSdKEZY2TpnPz5covjJqav+g5qeBqwSHKBvz7Vm1SAfy93SwKk/JeSTymruDGItTwNijSsno5LhOHRS1pcfw==
   dependencies:
     "@typescript-eslint/typescript-estree" "5.40.0"
-    "@t
+    "@typescript-eslint/utils" "5.40.0"
+    debug "^4.3.4"
+    tsutils "^3.21.0"
+
+"@typescript-eslint/types@5.40.0":
+  version "5.40.0"
+  resolved "https://r
