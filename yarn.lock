@@ -141,4 +141,7 @@
 
 "@typescript-eslint/typescript-estree@5.40.0":
   version "5.40.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-5.40.0.tgz#e305e6a5d65226efa5471ee0f12e0ffaab6d30
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-5.40.0.tgz#e305e6a5d65226efa5471ee0f12e0ffaab6d3075"
+  integrity sha512-b0GYlDj8TLTOqwX7EGbw2gL5EXS2CPEWhF9nGJiGmEcmlpNBjyHsTwbqpyIEPVpl6br4UcBOYlcI2FJVtJkYhg==
+  dependencies:
+    "@typescript-eslint/type
