@@ -149,4 +149,9 @@
     debug "^4.3.4"
     globby "^11.1.0"
     is-glob "^4.0.3"
-    se
+    semver "^7.3.7"
+    tsutils "^3.21.0"
+
+"@typescript-eslint/utils@5.40.0":
+  version "5.40.0"
+  resolved "https://registry.yarnpkg.com/@typescript-esli
