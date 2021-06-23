@@ -159,4 +159,8 @@
   dependencies:
     "@types/json-schema" "^7.0.9"
     "@typescript-eslint/scope-manager" "5.40.0"
-    "@type
+    "@typescript-eslint/types" "5.40.0"
+    "@typescript-eslint/typescript-estree" "5.40.0"
+    eslint-scope "^5.1.1"
+    eslint-utils "^3.0.0"
+    semve
