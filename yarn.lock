@@ -163,4 +163,8 @@
     "@typescript-eslint/typescript-estree" "5.40.0"
     eslint-scope "^5.1.1"
     eslint-utils "^3.0.0"
-    semve
+    semver "^7.3.7"
+
+"@typescript-eslint/visitor-keys@5.40.0":
+  version "5.40.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/visi
