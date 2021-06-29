@@ -171,4 +171,8 @@
   integrity sha512-ijJ+6yig+x9XplEpG2K6FUdJeQGGj/15U3S56W9IqXKJqleuD7zJ2AX/miLezwxpd7ZxDAqO87zWufKg+RPZyQ==
   dependencies:
     "@typescript-eslint/types" "5.40.0"
-    eslint-visitor-keys 
+    eslint-visitor-keys "^3.3.0"
+
+"@vitejs/plugin-vue@^3.1.0":
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-v
