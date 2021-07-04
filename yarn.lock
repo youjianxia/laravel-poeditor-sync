@@ -187,4 +187,5 @@
 
 "@volar/source-map@0.40.13":
   version "0.40.13"
-  resolved "https://registr
+  resolved "https://registry.yarnpkg.com/@volar/source-map/-/source-map-0.40.13.tgz#9acbc47614bbd8fa710d233d10fff1b18cb78a80"
+  integrity sha512-dbdkAB2Nxb0wLjAY5O64o3ywVWlAGONn
