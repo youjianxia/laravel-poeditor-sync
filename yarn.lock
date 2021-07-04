@@ -182,3 +182,9 @@
   version "0.40.13"
   resolved "https://registry.yarnpkg.com/@volar/code-gen/-/code-gen-0.40.13.tgz#cd69a67b11462b93d79ea2139f9f1e0a76e15111"
   integrity sha512-4gShBWuMce868OVvgyA1cU5WxHbjfEme18Tw6uVMfweZCF5fB2KECG0iPrA9D54vHk3FeHarODNwgIaaFfUBlA==
+  dependencies:
+    "@volar/source-map" "0.40.13"
+
+"@volar/source-map@0.40.13":
+  version "0.40.13"
+  resolved "https://registr
