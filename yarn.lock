@@ -192,4 +192,6 @@
   dependencies:
     "@vue/reactivity" "3.2.38"
 
-"@volar/typescript-faster@0.4
+"@volar/typescript-faster@0.40.13":
+  version "0.40.13"
+  resolved "https://registry.yarnpkg.com/@volar/typescript-faster/-/typescript-faster-0.40.13.tgz#5d9600
