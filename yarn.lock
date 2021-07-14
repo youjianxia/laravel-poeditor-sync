@@ -212,4 +212,6 @@
     "@vue/reactivity" "^3.2.38"
     "@vue/shared" "^3.2.38"
 
-"@volar/v
+"@volar/vue-typescript@0.40.13":
+  version "0.40.13"
+  resolved "https://registry.yarnpkg.com/@volar/vue-typescript/-/vue-typescript-0.40.13.tgz#50
