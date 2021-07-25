@@ -240,4 +240,5 @@
     "@vue/shared" "3.2.41"
 
 "@vue/compiler-sfc@3.2.41", "@vue/compiler-sfc@^3.2.38":
-  ver
+  version "3.2.41"
+  resolved "https://registry.yarnpkg.com/@vue/compiler-sfc/-/compiler-sfc-3.2.41.tgz#238fb8c48318408c856748f4116aff8cc1
