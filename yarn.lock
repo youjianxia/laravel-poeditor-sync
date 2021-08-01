@@ -248,4 +248,8 @@
     "@vue/compiler-core" "3.2.41"
     "@vue/compiler-dom" "3.2.41"
     "@vue/compiler-ssr" "3.2.41"
-    "@vue/reactivit
+    "@vue/reactivity-transform" "3.2.41"
+    "@vue/shared" "3.2.41"
+    estree-walker "^2.0.2"
+    magic-string "^0.25.7"
+    postcss "^8.1.10"
