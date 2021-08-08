@@ -264,4 +264,6 @@
     "@vue/shared" "3.2.41"
 
 "@vue/devtools-api@^6.1.4":
-  vers
+  version "6.4.4"
+  resolved "https://registry.yarnpkg.com/@vue/devtools-api/-/devtools-api-6.4.4.tgz#0b024fc8ca91bb4b6035abaf53c5aecc17119b3b"
+  inte
