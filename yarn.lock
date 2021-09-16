@@ -319,4 +319,6 @@
     "@vue/shared" "3.2.41"
     csstype "^2.6.8"
 
-"@vue/server-renderer@3.2.
+"@vue/server-renderer@3.2.41":
+  version "3.2.41"
+  resolved "https://registry.yarnpkg.com/@vue/server-renderer/-/server-renderer-3.2.41.tgz#ca64552c05878f94e8d1
