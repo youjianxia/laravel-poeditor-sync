@@ -340,4 +340,11 @@
 "@vuetify/loader-shared@^1.7.0":
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/@vuetify/loader-shared/-/loader-shared-1.7.0.tgz#b3bea7f90795dd8efdb536b192335590d85bffdd"
-  integrity sha512-Db4K67wMhduDsbvdRBYkrYuomti+j0E/1vlz1
+  integrity sha512-Db4K67wMhduDsbvdRBYkrYuomti+j0E/1vlz1lnDng5F9LYYBcXa60qypIazVGI6GX/CuY1vshN6XGtGQI4FKg==
+  dependencies:
+    find-cache-dir "^3.3.2"
+    upath "^2.0.1"
+
+acorn-jsx@^5.3.2:
+  version "5.3.2"
+  
