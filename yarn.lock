@@ -339,4 +339,5 @@
 
 "@vuetify/loader-shared@^1.7.0":
   version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@vuetify/l
+  resolved "https://registry.yarnpkg.com/@vuetify/loader-shared/-/loader-shared-1.7.0.tgz#b3bea7f90795dd8efdb536b192335590d85bffdd"
+  integrity sha512-Db4K67wMhduDsbvdRBYkrYuomti+j0E/1vlz1
