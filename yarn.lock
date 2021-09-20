@@ -335,4 +335,8 @@
 "@vue/shared@3.2.41", "@vue/shared@^3.2.38":
   version "3.2.41"
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.2.41.tgz#fbc95422df654ea64e8428eced96ba6ad555d2bb"
-  integrity sha512-W9mfWLHmJhkfAmV+7gDjcHeAWALQtgGT3JErxULl0oz6R6+3ug91I7IErs93
+  integrity sha512-W9mfWLHmJhkfAmV+7gDjcHeAWALQtgGT3JErxULl0oz6R6+3ug91I7IErs93eCFhPCZPHBs4QJS7YWEV7A3sxw==
+
+"@vuetify/loader-shared@^1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@vuetify/l
