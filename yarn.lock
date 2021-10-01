@@ -389,4 +389,5 @@ argparse@^2.0.1:
 
 array-union@^2.1.0:
   version "2.1.0"
-  resolved
+  resolved "https://registry.yarnpkg.com/array-union/-/array-union-2.1.0.tgz#b798420adbeb1de828d84acd8a2e23d3efe85e8d"
+  integrity sha512-HGyxo
