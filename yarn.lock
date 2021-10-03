@@ -394,4 +394,5 @@ array-union@^2.1.0:
 
 balanced-match@^1.0.0:
   version "1.0.2"
-  resolved "https://registry.yarnpk
+  resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.2.tgz#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
+  integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7t
