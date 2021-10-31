@@ -509,4 +509,5 @@ emojis-list@^3.0.0:
 
 esbuild-android-64@0.15.11:
   version "0.15.11"
-  resolved "https://registry.y
+  resolved "https://registry.yarnpkg.com/esbuild-android-64/-/esbuild-android-64-0.15.11.tgz#50402129c3e85bb06434e212374c5f693e4c5f01"
+  inte
