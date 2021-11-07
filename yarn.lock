@@ -529,4 +529,5 @@ esbuild-darwin-arm64@0.15.11:
 
 esbuild-freebsd-64@0.15.11:
   version "0.15.11"
-  resolved "https://registry.yarnpkg.com/e
+  resolved "https://registry.yarnpkg.com/esbuild-freebsd-64/-/esbuild-freebsd-64-0.15.11.tgz#fd86fd1b3b65366048f35b996d9cdf3547384eee"
+  integrity sha512-8dKP26r0/Qyez8nTCwpq60QbuYKOeBy
