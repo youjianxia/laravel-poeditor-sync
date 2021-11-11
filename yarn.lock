@@ -540,4 +540,8 @@ esbuild-freebsd-arm64@0.15.11:
 esbuild-linux-32@0.15.11:
   version "0.15.11"
   resolved "https://registry.yarnpkg.com/esbuild-linux-32/-/esbuild-linux-32-0.15.11.tgz#64b50e774bf75af7dcc6a73ad509f2eb0ac4487b"
-  integrity sha512
+  integrity sha512-lsrAfdyJBGx+6aHIQmgqUonEzKYeBnyfJPkT6N2dOf1RoXYYV1BkWB6G02tjsrz1d5wZzaTc3cF+TKmuTo/ZwA==
+
+esbuild-linux-64@0.15.11:
+  version "0.15.11"
+  resolved "https://registry.yarnpkg.com
