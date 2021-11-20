@@ -549,4 +549,4 @@ esbuild-linux-64@0.15.11:
 
 esbuild-linux-arm64@0.15.11:
   version "0.15.11"
-  reso
+  resolved "https://registry.yarnpkg.com/esbuild-linux-arm64/-/esbuild-linux-arm64-0.15.11.tgz#c0cb31980eee066bfd39a4593660a0ecebe926cb"
