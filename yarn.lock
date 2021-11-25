@@ -560,4 +560,8 @@ esbuild-linux-arm@0.15.11:
 esbuild-linux-mips64le@0.15.11:
   version "0.15.11"
   resolved "https://registry.yarnpkg.com/esbuild-linux-mips64le/-/esbuild-linux-mips64le-0.15.11.tgz#10627331c90164e553429ed25e025184bba485b6"
-  integrity sha512-WD61y/R1M4BLe4gxXRypoQ0Ci+Vjf714QYzcPNkiYv5I8K8WDz2ZR8Bm6cqKxd6rD+e/rZgPDbhQ9PCf7TMHm
+  integrity sha512-WD61y/R1M4BLe4gxXRypoQ0Ci+Vjf714QYzcPNkiYv5I8K8WDz2ZR8Bm6cqKxd6rD+e/rZgPDbhQ9PCf7TMHmA==
+
+esbuild-linux-ppc64le@0.15.11:
+  version "0.15.11"
+  resolved "https://registry.yarnpkg.com/esbuild-linux-ppc64le/-/esbuild-linux-ppc64le-0.15.11.tgz#be42679a36a5246b89
