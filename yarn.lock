@@ -575,4 +575,8 @@ esbuild-linux-riscv64@0.15.11:
 esbuild-linux-s390x@0.15.11:
   version "0.15.11"
   resolved "https://registry.yarnpkg.com/esbuild-linux-s390x/-/esbuild-linux-s390x-0.15.11.tgz#e774e0df061b6847d86783bf3c8c4300a72e03ad"
-  integrity sha512-sZHtiXXOKsLI3XGBGoYO4qKBzJlb8xNsWmvFiwFMHFzA4AXgDP1KDp7Daw
+  integrity sha512-sZHtiXXOKsLI3XGBGoYO4qKBzJlb8xNsWmvFiwFMHFzA4AXgDP1KDp7Dawe9C2pavTRBDvl+Ok4n/DHQ59oaTg==
+
+esbuild-netbsd-64@0.15.11:
+  version "0.15.11"
+  resolved "https://registry.yarnpkg.com/esbuild-netbsd-6
