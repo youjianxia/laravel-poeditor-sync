@@ -614,3 +614,8 @@ esbuild@^0.15.9:
   optionalDependencies:
     "@esbuild/android-arm" "0.15.11"
     "@esbuild/linux-loong64" "0.15.11"
+    esbuild-android-64 "0.15.11"
+    esbuild-android-arm64 "0.15.11"
+    esbuild-darwin-64 "0.15.11"
+    esbuild-darwin-arm64 "0.15.11"
+    esbuild-freebsd-64 "0.
