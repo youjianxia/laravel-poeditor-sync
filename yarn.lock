@@ -627,4 +627,8 @@ esbuild@^0.15.9:
     esbuild-linux-mips64le "0.15.11"
     esbuild-linux-ppc64le "0.15.11"
     esbuild-linux-riscv64 "0.15.11"
-    esbuild-linux-s390x
+    esbuild-linux-s390x "0.15.11"
+    esbuild-netbsd-64 "0.15.11"
+    esbuild-openbsd-64 "0.15.11"
+    esbuild-sunos-64 "0.15.11"
+    esbuild
