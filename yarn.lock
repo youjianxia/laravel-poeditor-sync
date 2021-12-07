@@ -637,4 +637,5 @@ esbuild@^0.15.9:
 
 escape-string-regexp@^4.0.0:
   version "4.0.0"
-  resolved "
+  resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
+  integrity
