@@ -671,4 +671,5 @@ eslint-scope@^7.1.1:
 
 eslint-utils@^3.0.0:
   version "3.0.0"
-  resolved "https://reg
+  resolved "https://registry.yarnpkg.com/eslint-utils/-/eslint-utils-3.0.0.tgz#8aebaface7345bb33559db0a1f13a1d2d48c3672"
+  integrity sha512-uuQC43IGctw68pJA1RgbQS8/NP7rch6Cwd
