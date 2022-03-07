@@ -741,4 +741,5 @@ espree@^9.3.1, espree@^9.4.0:
 
 esquery@^1.4.0:
   version "1.4.0"
-  resolved "
+  resolved "https://registry.yarnpkg.com/esquery/-/esquery-1.4.0.tgz#2148ffc38b82e8c7057dfed48425b3e61f0f24a5"
+  integrity sha512-cCDispWt5vHHtwMY2YrAQ4ibFkAL8Rb
