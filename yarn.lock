@@ -748,4 +748,5 @@ esquery@^1.4.0:
 
 esrecurse@^4.3.0:
   version "4.3.0"
-  resolved "https:/
+  resolved "https://registry.yarnpkg.com/esrecurse/-/esrecurse-4.3.0.tgz#7ad7964d679abb28bee72cec63758b1c5d2c9921"
+  integrity sha512-K
