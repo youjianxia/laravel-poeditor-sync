@@ -801,4 +801,5 @@ fast-levenshtein@^2.0.6:
 
 fastq@^1.6.0:
   version "1.13.0"
-  resolved "https://reg
+  resolved "https://registry.yarnpkg.com/fastq/-/fastq-1.13.0.tgz#616760f88a7526bdfc596b7cab8c18938c36b98c"
+  integrity sha512-YpkpUnK8od0o1hmeSc7UUs/eB/vIPWJYjKck2QKIz
