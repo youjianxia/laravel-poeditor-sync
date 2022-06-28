@@ -822,4 +822,5 @@ fill-range@^7.0.1:
 
 find-cache-dir@^3.3.2:
   version "3.3.2"
-  resolved "https://registry.yarnpkg.com/find-cache-dir/-/
+  resolved "https://registry.yarnpkg.com/find-cache-dir/-/find-cache-dir-3.3.2.tgz#b30c5b6eff0730731aea9bbd9dbecbd80256d64b"
+  integrity sha512-wXZV5emFEjrridIgED11OoUKLxiYjAcqot/NJdAkOhlJ+vGzwhOAfcG5OX
