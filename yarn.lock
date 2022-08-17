@@ -847,4 +847,5 @@ find-up@^5.0.0:
 
 flat-cache@^3.0.4:
   version "3.0.4"
-  resolved "https://registry.yarnpkg.com/fla
+  resolved "https://registry.yarnpkg.com/flat-cache/-/flat-cache-3.0.4.tgz#61b0338302b2fe9f957dcc32fc2a87f1c3048b11"
+  integrity sha512-dm9s5Pw7Jc0GvMYbshN6zchCA9RgQlzzEZX3vylR9IqFfS8Xcib
