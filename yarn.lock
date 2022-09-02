@@ -860,4 +860,5 @@ flatted@^3.1.0:
 
 fs.realpath@^1.0.0:
   version "1.0.0"
-  resolved "ht
+  resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
+  integrity sha512-OO0pH2lK6a0
