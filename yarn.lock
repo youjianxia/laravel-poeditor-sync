@@ -1121,4 +1121,5 @@ nanoid@^3.3.4:
 
 natural-compare@^1.4.0:
   version "1.4.0"
-  resolved 
+  resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
+  integrity sha512-OWND8ei3VtNC9
