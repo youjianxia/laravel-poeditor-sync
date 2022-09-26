@@ -1133,4 +1133,5 @@ nth-check@^2.0.1:
 
 null-loader@^4.0.1:
   version "4.0.1"
-  resolved "https://registry.yar
+  resolved "https://registry.yarnpkg.com/null-loader/-/null-loader-4.0.1.tgz#8e63bd3a2dd3c64236a4679428632edd0a6dbc6a"
+  integrity sha512-pxqVbi4U6N26lq+LmgIbB5XATP0VdZKOG25DhHi8btM
