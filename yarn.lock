@@ -1279,4 +1279,7 @@ rechoir@^0.6.2:
   dependencies:
     resolve "^1.1.6"
 
-regexp
+regexpp@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/regexpp/-/regexpp-3.2.0.tgz#0425a2768d8f23bad70ca4b90461fa2f1213e1b2"
+  integrity sha512-pq2bW
