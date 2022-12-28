@@ -1422,4 +1422,5 @@ text-table@^0.2.0:
 
 to-regex-range@^5.0.1:
   version "5.0.1"
-  resolved "https://r
+  resolved "https://registry.yarnpkg.com/to-regex-range/-/to-regex-range-5.0.1.tgz#1648c44aae7c8d988a326018ed72f5b4dd0392e4"
+  integrity sha512-65P7iz6X5yEr1cw
