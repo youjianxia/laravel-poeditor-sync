@@ -1475,4 +1475,5 @@ util-deprecate@^1.0.2:
 
 vite-plugin-vuetify@^1.0.0-alpha.12:
   version "1.0.0"
-  resolved "https://registry.yarnpkg.com/vite-plugin-vuetify/-/vit
+  resolved "https://registry.yarnpkg.com/vite-plugin-vuetify/-/vite-plugin-vuetify-1.0.0.tgz#41139404d8be584debcc2582b5e015681aa5539e"
+  integrity sha512-30+W6H//wjOegKCha4wQ3IS+JyXDE6IayL5cK5S4IrM7WIceV/W
