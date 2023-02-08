@@ -1482,4 +1482,7 @@ vite-plugin-vuetify@^1.0.0-alpha.12:
     debug "^4.3.3"
     upath "^2.0.1"
 
-vite@^
+vite@^3.1.0:
+  version "3.1.8"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-3.1.8.tgz#fa29144167d19b773baffd65b3972ea4c12359c9"
+  integrity sha5
