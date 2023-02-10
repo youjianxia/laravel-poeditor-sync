@@ -1495,4 +1495,5 @@ vite@^3.1.0:
     fsevents "~2.3.2"
 
 vue-cli-plugin-vuetify@~2.5.8:
-  v
+  version "2.5.8"
+  resolved "https://registry.yarnpkg.com/vue-cli-plugin-vuetify/-/vue-cli-plugin-vuetify-2.5.8.tgz#a67ef81375fb2cd9f4f912e665e5190de105f2
