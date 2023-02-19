@@ -1514,4 +1514,8 @@ vue-eslint-parser@^9.0.0, vue-eslint-parser@^9.0.1:
     espree "^9.3.1"
     esquery "^1.4.0"
     lodash "^4.17.21"
-    semve
+    semver "^7.3.6"
+
+vue-router@4:
+  version "4.1.5"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.1.5.tgz#256f597e3f5a281a23352a61
