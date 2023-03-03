@@ -1538,4 +1538,9 @@ vue@^3.2.37:
   dependencies:
     "@vue/compiler-dom" "3.2.41"
     "@vue/compiler-sfc" "3.2.41"
-    "@vue/runtim
+    "@vue/runtime-dom" "3.2.41"
+    "@vue/server-renderer" "3.2.41"
+    "@vue/shared" "3.2.41"
+
+"vuetify@npm:@vuetify/nightly@next":
+  version "3.0.0-next-202210
