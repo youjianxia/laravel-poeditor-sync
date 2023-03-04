@@ -1545,4 +1545,7 @@ vue@^3.2.37:
 "vuetify@npm:@vuetify/nightly@next":
   version "3.0.0-next-20221015.0"
   resolved "https://registry.yarnpkg.com/@vuetify/nightly/-/nightly-3.0.0-next-20221015.0.tgz#085419bcb35b0a6002803ffb90f8b11fa9c49f1a"
- 
+  integrity sha512-Ht3e+LbytqzZ71aTntyJ2POxMW1GrNnG8eftwm5UDjBpuKbcOpjB87mAF46A7jEF0FKQHofYeDvB7Qa/KXKw6Q==
+
+webfontloader@^1.0.0:
+  version "1.6
