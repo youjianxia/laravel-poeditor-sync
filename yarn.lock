@@ -1548,4 +1548,6 @@ vue@^3.2.37:
   integrity sha512-Ht3e+LbytqzZ71aTntyJ2POxMW1GrNnG8eftwm5UDjBpuKbcOpjB87mAF46A7jEF0FKQHofYeDvB7Qa/KXKw6Q==
 
 webfontloader@^1.0.0:
-  version "1.6
+  version "1.6.28"
+  resolved "https://registry.yarnpkg.com/webfontloader/-/webfontloader-1.6.28.tgz#db786129253cb6e8eae54c2fb05f870af6675bae"
+  integrity sha512-
